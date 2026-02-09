@@ -2,14 +2,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prime Solutions | Digital Agency</title>
+<title>Prime Solutions | Ultimate Digital Agency</title>
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',Arial;}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
 html{scroll-behavior:smooth;}
 body{background:#f5f7fb;color:#333;line-height:1.6;}
 
@@ -34,6 +34,7 @@ text-align:center;padding:40px;}
 .hero h1{font-size:56px;margin-bottom:15px;letter-spacing:1px;}
 .hero p{font-size:20px;opacity:.9;margin-bottom:25px;}
 .hero button{
+margin-top:25px;
 background:#fff;color:#0d6efd;
 border:none;padding:16px 38px;
 border-radius:50px;font-size:17px;cursor:pointer;
@@ -58,6 +59,7 @@ text-align:center;
 gap:20px;padding:60px 40px;border-radius:15px;box-shadow:0 20px 40px rgba(0,0,0,.08);}
 .stats div{padding:20px;}
 .stats h2{color:#0d6efd;font-size:38px;margin-bottom:10px;}
+.stats p{font-size:16px;color:#555;}
 
 /* SERVICES */
 .services{
@@ -86,6 +88,25 @@ padding:80px;border-radius:20px;
 text-align:center;font-weight:600;
 transition:0.3s;}
 .portfolio div:hover{background:linear-gradient(135deg,#0d6efd,#6610f2);color:#fff;transform:scale(1.05);}
+
+/* TESTIMONIALS */
+.testimonials{
+background:#f1f3f6;padding:80px 60px;border-radius:20px;}
+.testimonials .card{
+background:#fff;padding:30px;border-radius:20px;box-shadow:0 15px 30px rgba(0,0,0,.08);
+margin:15px;text-align:center;}
+.testimonials .card p{font-style:italic;color:#555;margin:15px 0;}
+
+/* PRICING */
+.pricing{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;}
+.pricing .card{
+background:#fff;padding:35px;border-radius:20px;box-shadow:0 15px 30px rgba(0,0,0,.08);
+text-align:center;transition:0.3s;}
+.pricing .card:hover{transform:translateY(-10px);box-shadow:0 20px 40px rgba(0,0,0,.12);}
+.pricing .card h3{margin-bottom:15px;}
 
 /* CONTACT */
 .contact form{
@@ -128,6 +149,8 @@ transition:0.3s;}
 <a href="#about">About</a>
 <a href="#services">Services</a>
 <a href="#portfolio">Portfolio</a>
+<a href="#testimonials">Testimonials</a>
+<a href="#pricing">Pricing</a>
 <a href="#contact">Contact</a>
 </nav>
 </header>
@@ -172,6 +195,19 @@ SEO optimization, and professional digital solutions.
 <div>Landing Page</div>
 <div>Corporate Website</div>
 </div>
+</section>
+
+<section id="testimonials" class="testimonials">
+<h2 class="section-title">Testimonials</h2>
+<div class="card"><p>"Amazing service! Highly recommend Prime Solutions."</p><strong>- Client A</strong></div>
+<div class="card"><p>"Professional team and fast delivery. Great experience."</p><strong>- Client B</strong></div>
+</section>
+
+<section id="pricing" class="pricing">
+<h2 class="section-title">Pricing Plans</h2>
+<div class="card"><h3>Basic</h3><p>Website setup, 5 pages</p><p>PKR 15,000</p></div>
+<div class="card"><h3>Professional</h3><p>Full WordPress website + SEO</p><p>PKR 25,000</p></div>
+<div class="card"><h3>Premium</h3><p>Full website + blog + support</p><p>PKR 35,000</p></div>
 </section>
 
 <section id="contact" class="contact">
